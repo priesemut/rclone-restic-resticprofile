@@ -2,7 +2,7 @@ name: Scheduled Version Check & Build
 
 on:
   schedule:
-    - cron: '41 * * * *'
+    - cron: '41 3 * * *'
   workflow_dispatch:
 
 permissions:
